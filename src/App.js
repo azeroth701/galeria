@@ -7,7 +7,7 @@ import ReactHowler from "react-howler";
 function App() {
   return (
     <div
-      className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl max-w-screen-md min-w-[100vh] min-h-[100vh] bg-gradient-to-r from-yellow-300 via-purple-400 to-blue-400 
+      className=" min-w-[100vh] min-h-[100vh] bg-gradient-to-r from-yellow-300 via-purple-400 to-blue-400 
      "
     >
 
@@ -16,7 +16,7 @@ function App() {
         playing={true}
       ></ReactHowler>
       ;
-      <div className="  p-48 ml-16 grid  grid-flow-col ">
+      <div className=" max-w-md mx-auto   md:max-w-2xl max-w-screen-md p-48 ml-16 grid  grid-flow-col ">
         <Buttons className=" float-left">Next</Buttons>
       </div>
     </div>
